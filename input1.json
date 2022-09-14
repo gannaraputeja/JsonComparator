@@ -1,0 +1,27 @@
+{
+  "firstname": "Pavan",
+  "age": 26,
+  "education": {
+    "elementary": {
+      "name": "abc school",
+      "years": 4
+    },
+    "middle": {
+      "name": "def school",
+      "years": 6
+    },
+    "high": {
+      "name": "ghi school",
+      "years": 4
+    },
+    "bachelors": {
+      "name": "jkl school",
+      "years": 4
+    }
+  },
+  "address": {
+    "city": "abc",
+    "pincode": 500001
+  },
+  "hobbies": ["abc", "def"]
+}

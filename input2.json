@@ -1,0 +1,27 @@
+{
+  "firstname": "Raviteja",
+  "age": 26,
+  "education": {
+    "elementary": {
+      "name": "xyz school",
+      "years": 4
+    },
+    "middle": {
+      "name": "def school",
+      "years": 6
+    },
+    "high": {
+      "name": "ghi school",
+      "years": 4
+    },
+    "bachelors": {
+      "name": "jkl school",
+      "years": 4
+    }
+  },
+  "address": {
+    "city": "xyz",
+    "pincode": 600001
+  },
+  "hobbies": ["xyz", "def"]
+}

@@ -15,6 +15,7 @@ import java.nio.file.Paths;
 import java.util.HashMap;
 import java.util.LinkedHashMap;
 import java.util.Map;
+import java.util.TreeMap;
 
 public class JsonComparator {
 
@@ -32,7 +33,10 @@ public class JsonComparator {
             result.put(element.findValue("path").asText(), element.findValue("value"));
         });
 
-        result.forEach((key, value) ->{
+
+        TreeMap sortedTreeMap = new TreeMap<>();
+        sortedTreeMap.putAll(result);
+        sortedTreeMap.forEach((key, value) ->{
             System.out.println(key + " : " + value);
         });
 
